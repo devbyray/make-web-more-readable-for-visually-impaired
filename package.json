@@ -1,22 +1,22 @@
 {
-    "name" : "Make the web more readable for visually impaired",
-    "title" : "Demo the make the web better readable",
-    "version" : "0.0.1",
-    "repository" : "http://registry.npmjs.org/",
-    "devDependencies": {
-        "gulp": "3.6.2",
-        "gulp-sass" : "0.7.1",
-        "gulp-autoprefixer" : "0.0.7",
-        "gulp-concat" : "2.2.0",
-        "gulp-minify-css" : "0.3.4",
-        "gulp-uglify" : "0.3.0",
-        "gulp-rename" : "1.2.0",
-        "gulp-autowatch" : "0.0.1",
-        "gulp-util" : "2.2.14",
-        "run-sequence" : "0.3.6",
-        "gulp-jshint" : "1.6.1",
-        "gulp-jsdoc" : "0.1.4",
-        "gulp-jasmine2-phantomjs" : "0.0.3",
-        "gulp-clean" : "0.2.4"
-    }
+  "name": "make-web-more-readable-for-visually-impaired",
+  "title": "Demo the make the web better readable",
+  "version": "0.0.1",
+  "repository": "http://registry.npmjs.org/",
+  "devDependencies": {
+    "gulp": "3.6.2",
+    "gulp-sass": "0.7.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-concat": "2.2.0",
+    "gulp-minify-css": "0.3.4",
+    "gulp-uglify": "0.3.0",
+    "gulp-rename": "1.2.0",
+    "gulp-autowatch": "0.0.1",
+    "gulp-util": "2.2.14",
+    "run-sequence": "0.3.6",
+    "gulp-jshint": "1.6.1",
+    "gulp-jsdoc": "^0.1.4",
+    "gulp-jasmine2-phantomjs": "0.0.3",
+    "gulp-clean": "0.2.4"
+  }
 }
