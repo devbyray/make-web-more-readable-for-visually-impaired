@@ -1,6 +1,6 @@
 {
-    "name" : "xs4all.nl",
-    "title" : "www Node NPM dependencies",
+    "name" : "Make the web more readable for visually impaired",
+    "title" : "Demo the make the web better readable",
     "version" : "0.0.1",
     "repository" : "http://registry.npmjs.org/",
     "devDependencies": {
