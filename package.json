@@ -1,6 +1,6 @@
 {
   "name": "make-web-more-readable-for-visually-impaired",
-  "title": "Demo the make the web better readable",
+  "title": "Demo to make the web better readable",
   "version": "0.0.1",
   "repository": "http://registry.npmjs.org/",
   "devDependencies": {
@@ -17,6 +17,7 @@
     "gulp-jshint": "1.6.1",
     "gulp-jsdoc": "^0.1.4",
     "gulp-jasmine2-phantomjs": "0.0.3",
-    "gulp-clean": "0.2.4"
+    "gulp-clean": "0.2.4",
+    "browser-sync": "^0.9.1"
   }
 }

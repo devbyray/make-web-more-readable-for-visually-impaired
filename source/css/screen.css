@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+html {
+  color: #606060;
+  font-family: "Arial";
+  line-height: 1.6;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+  transition: ease 0.5s;
+  font-family: 'Open Sans', sans-serif;
+  background: #fff; }
+  html.high_contrast {
+    color: #000; }
+
+html, body {
+  padding: 0;
+  margin: 0; }
+
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 1.1rem; } }
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 1.125rem; } }
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 1.15rem; } }
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 1.175rem; } }
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 1.2rem; } }
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 1.225rem; } }
+
+html.large {
+  font-size: 1.1rem; }
+html.xlarge {
+  font-size: 1.25rem; }
+html.xxlarge {
+  font-size: 1.4rem; }
+@media only screen and (max-width: 640px) {
+  html.normal, html.large, html.xlarge, html.xxlarge {
+    font-size: inherit !important; } }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem 0; }
+
+h1 {
+  font-size: 2.2rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.8rem; }
+
+h4 {
+  font-size: 1.6rem; }
+
+h5 {
+  font-size: 1.4rem; }
+
+h6 {
+  font-size: 1.2rem; }
+
+strong {
+  font-size: 1rem; }
+
+a {
+  color: #606060; }
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+nav {
+  width: 100%;
+  position: relative;
+  float: left;
+  background: #ccc;
+  -webkit-transition: ease 0.5s background;
+  -moz-transition: ease 0.5s background;
+  -ms-transition: ease 0.5s background;
+  -o-transition: ease 0.5s background;
+  transition: ease 0.5s background; }
+  .high_contrast nav {
+    background: #000; }
+  nav ul {
+    position: relative;
+    float: left;
+    padding: 1.25rem;
+    margin: 0 0 0 0; }
+    @media only screen and (max-width: 480px) {
+      nav ul {
+        width: 100%; } }
+    nav ul li {
+      float: left;
+      list-style: none;
+      margin-right: 1rem;
+      padding: 0.2rem 0; }
+      @media only screen and (max-width: 480px) {
+        nav ul li {
+          width: 100%;
+          display: block;
+          margin-right: 0;
+          border-bottom: 1px solid #333; }
+          .high_contrast nav ul li {
+            border-bottom-color: #fff; }
+          nav ul li:last-child {
+            border-bottom: 0; } }
+      nav ul li a {
+        -webkit-transition: ease 0.5s color;
+        -moz-transition: ease 0.5s color;
+        -ms-transition: ease 0.5s color;
+        -o-transition: ease 0.5s color;
+        transition: ease 0.5s color;
+        text-decoration: none; }
+        .high_contrast nav ul li a {
+          color: #fff; }
+
+.buttons {
+  width: 100%;
+  position: relative;
+  float: left; }
+  .buttons .button_group {
+    width: 50%;
+    position: relative;
+    float: left;
+    padding: 1rem; }
+    .buttons .button_group#textsize {
+      text-align: right; }
+    .buttons .button_group label {
+      font-weight: bold; }
+    .buttons .button_group button {
+      width: 2rem;
+      height: 2rem;
+      font-size: 1.5rem;
+      text-align: center; }
+    .buttons .button_group select {
+      padding: 0.4rem; }
+
+.content {
+  width: 100%;
+  position: relative;
+  float: left;
+  padding: 1.25rem; }

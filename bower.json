@@ -1,0 +1,22 @@
+{
+  "name": "make-web-more-readable-for-visually-impaired",
+  "version": "0.0.1",
+  "homepage": "https://github.com/raymonschouwenaar/make-web-more-readable-for-visually-impaired",
+  "authors": [
+    "Raymon Schouwenaar <raymon@raymonschouwenaar.nl>"
+  ],
+  "description": "Demo to make the web better readable for visually impaired",
+  "main": "source\\index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
